@@ -3,7 +3,6 @@
       <img src="https://github.com/nipuna317/Any-Video-Downloader/blob/main/Screenshot%202025-10-16%20160109.png" alt="App Screenshot" style="max-width: 100%; height: auto; display: block; margin: 15px 0;">
 
 
-
 <p>
         A simple, fast, and feature-rich application designed to download videos and entire playlists from popular online platforms like YouTube. Built for a seamless local video saving experience.
     </p>
@@ -47,8 +46,26 @@
     </p>
 
  <ol>
-        <li>Download the latest release of <strong>Any Video Downloader V1</strong> 
-         <a href="https://mega.nz/file/v4w3wJSD#M50D1pClWMyBQjV2XusDXrhUMMpJqRkRgMD8PlUaSv4">download</a>.</li>
+        <li>Download the latest release of <strong>Any Video Downloader V1</strong> </li>
+  <p>
+    <a href="https://mega.nz/file/v4w3wJSD#M50D1pClWMyBQjV2XusDXrhUMMpJqRkRgMD8PlUaSv4" style="text-decoration: none;">
+        <button style="
+            background-color: #28a745; /* Green color for download */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 15px;
+            display: inline-block;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        " onmouseover="this.style.backgroundColor='#218838'" onmouseout="this.style.backgroundColor='#28a745'">
+            ⬇️ Download Any Video Downloader V1
+        </button>
+    </a>
+</p>
         <li>Unzip the downloaded file.</li>
         <li>Run the executable file: <code>Any Video Downloader V1.exe</code>.</li>
     </ol>
