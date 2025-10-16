@@ -1,36 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Any Video Downloader V1 - README</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; }
-        h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
-        h2 { color: #333; margin-top: 25px; }
-        code { background-color: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
-        ul { list-style-type: disc; margin-left: 20px; }
-        .note { background-color: #e6f7ff; border-left: 5px solid #007bff; padding: 10px; margin: 15px 0; }
-    </style>
-</head>
-<body>
-
-    <h1># Any Video Downloader V1</h1>
-
-    <p>
+ <h1># Any Video Downloader V1</h1>
+ <p>
         <img src="https://i.imgur.com/your-screenshot-link-1.png" alt="App Screenshot" style="max-width: 100%; height: auto; display: block; margin: 15px 0;">
         <span class="note">
             (සැ.යු: ඔබගේ Screenshots GitHub repo එකට දමා මෙහි Link එක යොදන්න)
         </span>
     </p>
 
-    <p>
+<p>
         A simple, fast, and feature-rich application designed to download videos and entire playlists from popular online platforms like YouTube. Built for a seamless local video saving experience.
     </p>
 
-    <hr>
+<hr>
 
-    <h2>✨ Features</h2>
+<h2>✨ Features</h2>
     <ul>
         <li><strong>Video &amp; Playlist Download:</strong> Easily download single videos or an entire playlist.</li>
         <li><strong>Format Selection:</strong> Choose your preferred output format (e.g., <code>mp4</code>, <code>webm</code>).</li>
@@ -40,9 +22,9 @@
         <li><strong>Themed UI:</strong> A simple, modern interface with a "Switch Theme" option.</li>
     </ul>
 
-    <hr>
+<hr>
 
-    <h2>🚀 How to Use</h2>
+ <h2>🚀 How to Use</h2>
     <p>The application is designed for simplicity, following these steps:</p>
     <ol>
         <li><strong>Copy the Link:</strong> Copy the URL of the video or playlist you wish to download (e.g., from YouTube).</li>
@@ -58,36 +40,34 @@
         <li><strong>Multiple Downloads:</strong> To start a new download while one is in progress, click <strong>Download New One</strong>.</li>
     </ol>
 
-    <hr>
+<hr>
 
-    <h2>📥 Installation (Example)</h2>
+<h2>📥 Installation (Example)</h2>
 
-    <p class="note">
-        (මෙම කොටස ඔබගේ යෙදුම බෙදාහරින ආකාරය අනුව වෙනස් විය හැක. උදාහරණයක් ලෙස මෙය Windows Executable එකක් නම්.)
+ <p class="note">
+     (මෙම කොටස ඔබගේ යෙදුම බෙදාහරින ආකාරය අනුව වෙනස් විය හැක. උදාහරණයක් ලෙස මෙය Windows Executable එකක් නම්.)
     </p>
 
-    <ol>
+ <ol>
         <li>Download the latest release of <strong>Any Video Downloader V1</strong> from the <a href="https://github.com/your-username/your-repo-name/releases">Releases Page</a>.</li>
         <li>Unzip the downloaded file.</li>
         <li>Run the executable file: <code>Any Video Downloader V1.exe</code>.</li>
     </ol>
 
-    <hr>
+ <hr>
 
-    <h2>🤝 Credits</h2>
+ <h2>🤝 Credits</h2>
 
-    <p>This application was originally created and developed by:</p>
+<p>This application was originally created and developed by:</p>
     <ul>
         <li><strong>Nipuna Rangana</strong></li>
     </ul>
 
-    <hr>
+ <hr>
 
-    <h2>🇱🇰 සිංහලෙන් සාරාංශය (Sinhala Summary)</h2>
+<h2>🇱🇰 සිංහලෙන් සාරාංශය (Sinhala Summary)</h2>
 
-    <p>
+<p>
         මෙය <strong>Nipuna Rangana</strong> විසින් නිර්මාණය කරන ලද <strong>Any Video Downloader V1</strong> මෘදුකාංගයයි. YouTube වැනි වෙබ් අඩවි වල වීඩියෝ සහ සම්පූර්ණ ධාවන ලැයිස්තු (Playlists) පහසුවෙන් සහ ඉක්මනින් බාගත කිරීමට මෙය භාවිතා කළ හැක. භාවිතයට පහසු අතුරු මුහුණතක් සහ අවශ්‍ය ආකෘතිය (Format) තෝරා ගැනීමේ හැකියාව මෙහි ඇත.
     </p>
 
-</body>
-</html>
