@@ -1,5 +1,93 @@
-Any Video Downloader V1![Screenshot of the main application window](uploaded:Screenshot 2025-10-16 161632.jpg-21b41d76-3aac-44ec-9804-983e321ee66b)Any Video Downloader V1 is a simple yet powerful desktop application designed to easily download videos from various online sources. It offers a clean user interface, support for multiple formats, and the ability to download entire playlists.🚀 Key FeaturesEasy URL Input: Paste video links directly into the application.Format Selection: Choose your preferred video or audio format (e.g., mp4).Playlist Download: Toggle the option to download an entire video playlist.Custom Filename: Use a template to customize how your downloaded files are named.Download Management: Start new downloads easily without restarting the application.Theme Switch: Change the application's appearance (e.g., Dark/Light mode).💡 How to UseCopy the URL of the video or playlist you want to download.Paste the URL into the "Video URL" field (Ctrl+V or use the "Paste" button).Browse and select the desired "Save to" location on your computer.Select the output "Format" (e.g., mp4, mp3).If downloading a list of videos, toggle Download playlist on.Click the Download button to start the process.For continuous use, click Download New One to start a new download without exiting the app.💻 Installation (Placeholder)(Since the application type (Windows, Mac, etc.) is not specified, use one of the following sections and fill in the details.)Windows ExecutableDownload the latest executable file (AnyVideoDownloaderV1.exe) from the Releases page.Run the executable file to start the application.Python Source Code (If applicable)Clone the repository:git clone [https://github.com/yourusername/Any-Video-Downloader-V1.git](https://github.com/yourusername/Any-Video-Downloader-V1.git)
-cd Any-Video-Downloader-V1
-Install required dependencies (e.g., youtube-dl, tkinter, etc.):pip install -r requirements.txt
-Run the application:python main.py
-💖 CreditsThis application was created by Nipun rangana.සිංහල සාරාංශය (Sinhala Summary)මෙය විවිධ ඔන්ලයින් මූලාශ්‍රවලින් වීඩියෝ පහසුවෙන් ඩවුන්ලෝඩ් කරගත හැකි ඩෙස්ක්ටොප් ඇප්ලිකේෂන් එකකි.මූලික ලක්ෂණ:ඕනෑම වීඩියෝ URL එකක් ඇතුළත් කිරීමේ පහසුව.වීඩියෝ සහ ඕඩියෝ format තේරීමේ හැකියාව.Playlist සම්පූර්ණයෙන් බාගත කිරීමේ පහසුකම.ඔබේ රුචි පරිදි බාගත වන ගොනු වල නම් (Filename Template) සකස් කිරීම.නිර්මාණය කළේ: Nipun rangana
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Any Video Downloader V1 - README</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h2 { color: #333; margin-top: 25px; }
+        code { background-color: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+        ul { list-style-type: disc; margin-left: 20px; }
+        .note { background-color: #e6f7ff; border-left: 5px solid #007bff; padding: 10px; margin: 15px 0; }
+    </style>
+</head>
+<body>
+
+    <h1># Any Video Downloader V1</h1>
+
+    <p>
+        <img src="https://i.imgur.com/your-screenshot-link-1.png" alt="App Screenshot" style="max-width: 100%; height: auto; display: block; margin: 15px 0;">
+        <span class="note">
+            (සැ.යු: ඔබගේ Screenshots GitHub repo එකට දමා මෙහි Link එක යොදන්න)
+        </span>
+    </p>
+
+    <p>
+        A simple, fast, and feature-rich application designed to download videos and entire playlists from popular online platforms like YouTube. Built for a seamless local video saving experience.
+    </p>
+
+    <hr>
+
+    <h2>✨ Features</h2>
+    <ul>
+        <li><strong>Video &amp; Playlist Download:</strong> Easily download single videos or an entire playlist.</li>
+        <li><strong>Format Selection:</strong> Choose your preferred output format (e.g., <code>mp4</code>, <code>webm</code>).</li>
+        <li><strong>Custom Save Path:</strong> Set your preferred directory to save the downloaded files.</li>
+        <li><strong>Filename Templating:</strong> Define how the output files should be named (e.g., using <code>%(title)s.%(ext)s</code>).</li>
+        <li><strong>Sequential/Multiple Downloads:</strong> Queue up multiple videos using the "Download New One" feature.</li>
+        <li><strong>Themed UI:</strong> A simple, modern interface with a "Switch Theme" option.</li>
+    </ul>
+
+    <hr>
+
+    <h2>🚀 How to Use</h2>
+    <p>The application is designed for simplicity, following these steps:</p>
+    <ol>
+        <li><strong>Copy the Link:</strong> Copy the URL of the video or playlist you wish to download (e.g., from YouTube).</li>
+        <li><strong>Paste the URL:</strong> Open the application and paste the link into the <strong>Video URL</strong> field (using <code>Ctrl + V</code>).</li>
+        <li><strong>Set Options (Optional):</strong>
+            <ul>
+                <li>Select the desired <strong>Format</strong> (e.g., <code>mp4</code>).</li>
+                <li><em>For playlists only:</em> Toggle the <strong>Download playlist</strong> switch.</li>
+            </ul>
+        </li>
+        <li><strong>Start Download:</strong> Click the <strong>Download</strong> button.</li>
+        <li><strong>View Progress:</strong> The progress bar will show the download status (e.g., <code>9.9% ETA: 32s</code>).</li>
+        <li><strong>Multiple Downloads:</strong> To start a new download while one is in progress, click <strong>Download New One</strong>.</li>
+    </ol>
+
+    <hr>
+
+    <h2>📥 Installation (Example)</h2>
+
+    <p class="note">
+        (මෙම කොටස ඔබගේ යෙදුම බෙදාහරින ආකාරය අනුව වෙනස් විය හැක. උදාහරණයක් ලෙස මෙය Windows Executable එකක් නම්.)
+    </p>
+
+    <ol>
+        <li>Download the latest release of <strong>Any Video Downloader V1</strong> from the <a href="https://github.com/your-username/your-repo-name/releases">Releases Page</a>.</li>
+        <li>Unzip the downloaded file.</li>
+        <li>Run the executable file: <code>Any Video Downloader V1.exe</code>.</li>
+    </ol>
+
+    <hr>
+
+    <h2>🤝 Credits</h2>
+
+    <p>This application was originally created and developed by:</p>
+    <ul>
+        <li><strong>Nipuna Rangana</strong></li>
+    </ul>
+
+    <hr>
+
+    <h2>🇱🇰 සිංහලෙන් සාරාංශය (Sinhala Summary)</h2>
+
+    <p>
+        මෙය <strong>Nipuna Rangana</strong> විසින් නිර්මාණය කරන ලද <strong>Any Video Downloader V1</strong> මෘදුකාංගයයි. YouTube වැනි වෙබ් අඩවි වල වීඩියෝ සහ සම්පූර්ණ ධාවන ලැයිස්තු (Playlists) පහසුවෙන් සහ ඉක්මනින් බාගත කිරීමට මෙය භාවිතා කළ හැක. භාවිතයට පහසු අතුරු මුහුණතක් සහ අවශ්‍ය ආකෘතිය (Format) තෝරා ගැනීමේ හැකියාව මෙහි ඇත.
+    </p>
+
+</body>
+</html>
